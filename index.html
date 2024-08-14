@@ -1,114 +1,174 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Louie Valentim</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Louie Valentim</title>
 </head>
+
 <body>
-    <div id="container">
-        <div id="menu"> <!--Inicio Menu-->
-            <div id="menu1">
-                <a href="" class="menuprincipal">Sobre Mim</a>
-                <a href="" class="menuprincipal">Contato</a>
-            </div>
-            <div id="logomenu"><img src="img/logo.svg" alt="" id="logoprincipal"></div>
-            <div id="menu2">
-                <a href="" class="menuprincipal">Preços</a>
-                <a href="" class="menuprincipal">Portfolio</a>
-            </div>
-        </div><!--Fim Menu-->
-       <div id="seção1"><!--inicio seção1-->
-          <div id="nome">
-            <h1>Louie Valentim</h1>
-          </div>
-          <div id="frase">
-            <p>Tudo que a arte me permite ser</p>
-          </div>
-          <div id="botão">
-            <a id="botãocontato"href="">Contato</a>
-          </div>
-          <div id="fotoprincipal">
-            <img src="img/fotoprincipal.jpg" alt="" id="fotogrande">
-          </div>
-          <div id="linklatreal">
-            <div class="linhavertical"></div>
-            <a href="#"><img class="logolateral" src="img/behance.svg" alt=""></a>
-            <a href="#"><img class="logolateral"src="img/instagram.svg" alt=""></a>
-            <a href="#"><img class="logolateral"src="img/whatsapp.svg" alt=""></a>
-            <div class="linhavertical"></div>
-          </div>
-          <div id="experiencias">
-            <p class="experiencias1">7 anos de <br>experiencia</p>
-            <p class="experiencias1">+ de 600 <br>clientes</p>
-            <p class="experiencias1">+ de 800 fotografias<br> clientes</p>
+  <main>
+    <div class="container">
+      <nav>
+        <ul class="nav-itens">
+          <li class="list-item"><a href="#" class="link">Sobre</a></li>
+          <li class="list-item"><a href="#">Portfolio</a></li>
+          <li class="list-item none"><img src="./img/logo.svg" alt="logo"></li>
+          <li class="list-item"><a href="#">Preços</a></li>
+          <li class="list-item"><a href="#">Contato</a></li>
+        </ul>
+      </nav>
+      <div class="hero">
+        <div class="texto-principal">
+          <h1>Louie Valentim</h1>
+          <p>Tudo o que a arte me permite ser</p>
+          <button class="contato"><a href="#">Contato</a></button>
         </div>
-       </div><!--Fim seção1-->
-
-       <div id="seção2"><!--inicio seção2-->
-           <div id="fotosobre">
-                <hr id="esquerda">
-                <img id="fotomontanha" src="img/sobremim.jpg" alt="">
-                <img id="fotopequena"src="img/sobremim2.jpg" alt="">
-                <hr  id="direita">    
-           </div>
-           <h2 id="sobremim1">Sobre Mim</h2>
-           <p id="sobremim">Me chamo Louie Barbosa Valentim (1997), nascido em Fortaleza — capital do Estado do Ceara, Brasil. Sempre fui apaixonado pelo universo do Áudio Visual . Sou formado em Marketing pela ESTACIO (2019). Atualmente trabalho em projetos para pessoas, empresas e faço parcerias com escritórios de marketing como diretor Criativo de áudio visual atuando em projetos de criação de marca. Sou curioso por natureza e amo tudo sobre Automotivo, videogames, inteligência artificial e trilhas. Acredito que a Fotografia tem poder para transformar o mundo, tendo papel fundamental no sucesso de qualquer serviço ou negócio, independentemente do tamanho ou localização geográfica. Meu propósito é, através da fotografia, criar soluções relevantes através de um olhar estratégico, focando pela clareza, qualidade e exclusividade.</p>
-       </div><!--Fim seção2-->
-
-       <div id="seção3"> <!--Inicio seção3-->
-        <h3>Portfolio</h3> <hr class="linha3">
-            <div>
-                  <img class="portfolio"src="img/skate.jpg" alt=""> 
-            </div>
-            <div>
-                <img class="portfolio"src="img/produto.jpg" alt="">
-            </div>
-            <div>
-                <img class="portfolio" src="img/chelua.jpg" alt="">
-            </div>
-            <div>
-                <img class="portfolio" src="img/febre.jpg" alt="">
-            </div>
-       </div> <!--fim seção3-->
-
-       <div id="seção4"> <!--fim seção4-->
-          <h4 class="clear">Preços</h4> <hr class="linha4">
-          <div>
-            <a href=""><img class="preços"src="img/skate.jpg" alt=""> </a>
+        <div class="foto-logo">
+          <div class="foto-principal">
+            <img src="./img/fotoprincipal.jpg" alt="louie">
           </div>
-          <div>
-          <a href=""><img class="preços"src="img/produto.jpg" alt=""></a>
+          <div class="logo-rede-social">
+            <div class="vertical-line"></div>
+            <a href="#"><img src="./img/behance.svg" alt=""></a>
+            <a href="#"><img src="./img/instagram.svg" alt=""></a>
+            <a href="#"><img src="./img/whatsapp.svg" alt=""></a>
+            <div class="vertical-line"></div>
           </div>
-          <div>
-          <a href=""><img class="preços" src="img/chelua.jpg" alt=""></a>
         </div>
-
-       </div> <!--fim seção4-->
-       <div id="seção5"> <!--inicio seção5-->
-            <div>
-              <div id="fotocomentario">
-                <img id="fotoperfil"src="img/perfil.jpg" alt="">
-              </div>
-              <div id="elogios">
-                <p id="comentarios">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla voluptates quae a nam vitae sed reprehenderit corrupti consectetur blanditiis, distinctio in placeat tempora repudiandae sapiente suscipit animi? Dolorum, vitae facere.</p>
-              </div>
+      </div>
+      <div class="sobre">
+        <div class="fotos-sobre">
+          <div><img src="./img/sobremim.jpg" class="sobremim1" alt=""></div>
+        </div>
+        <div class="text-sobre-mim">
+          <h2>Sobre mim</h2>
+          <p>Me chamo Louie Barbosa Valentim (1997), nascido em Fortaleza — capital do Estado do Ceara, Brasil. Sempre
+            fui apaixonado pelo universo do Áudio Visual . Sou formado em Marketing pela ESTACIO (2019). Atualmente
+            trabalho em projetos para pessoas, empresas e faço parcerias com escritórios de marketing como diretor
+            Criativo de áudio visual atuando em projetos de criação de marca. Sou curioso por natureza e amo tudo sobre
+            Automotivo, videogames, inteligência artificial e trilhas. Acredito que a Fotografia tem poder para
+            transformar o mundo, tendo papel fundamental no sucesso de qualquer serviço ou negócio, independentemente do
+            tamanho ou localização geográfica. Meu propósito é, através da fotografia, criar soluções relevantes através
+            de um olhar estratégico, focando pela clareza, qualidade e exclusividade.</p>
+        </div>
+      </div>
+      <div class="portfolio">
+        <h2>Portfolio</h2>
+        <hr class="horizon-line">
+        <div class="cards">
+          <div class="card">
+            <a href="#"><img src="./img/skate.jpg" alt=""></a>
+          </div>
+          <div class="card">
+            <a href="#"><img src="./img/produto.jpg" alt=""></a>
+          </div>
+          <div class="card">
+            <a href="#"><img src="./img/chelua.jpg" alt=""></a>
+          </div>
+          <div class="card">
+            <a href="#"><img src="./img/febre.jpg" alt=""></a>
+          </div>
+        </div>
+      </div>
+      <div class="precos">
+        <h2>Preços</h2>
+        <hr class="horizon-line">
+        <div class="card-container">
+          <div class="card">
+            <img src="./img/skate.jpg" alt="Imagem do produto" class="card-image" />
+            <div class="card-price">
+              <p class="price">R$ 1000,00</p>
+              <p class="details">Duração:</p>
+              <p class="details">1 hora</p>
+              <hr>
+              <p class="details">Número de fotos: </p>
+              <p class="details">50</p>
+              <hr>
+              <p class="details">Consultoria de estilos inclusa</p>
+              <hr>
             </div>
-
-       </div> <!--fim seção5-->
-
-       <div id="footer">
-          <div id="logorodape">
-             <img id="logorodape" class="clear"src="img/logo.svg" alt="">
           </div>
-          <div id="email">
-            <p >email@email.com</p>
-            <p>(99)9-9999-9999</p>
+          <div class="card">
+            <img src="./img/produto.jpg" alt="Imagem do produto" class="card-image" />
+            <div class="card-price">
+              <p class="price">R$ 2000,00</p>
+              <p class="details">Duração:</p>
+              <p class="details">2 horas</p>
+              <hr>
+              <p class="details">Número de fotos: </p>
+              <p class="details">50-70</p>
+              <hr>
+              <p class="details">Consultoria de estilos inclusa</p>
+              <hr>
+            </div>
           </div>
-       </div>
+          <div class="card">
+            <img src="./img/chelua.jpg" alt="Imagem do produto" class="card-image" />
+            <div class="card-price">
+              <p class="price">R$ 2700,00</p>
+              <p class="details">Duração:</p>
+              <p class="details">2 horas</p>
+              <hr>
+              <p class="details">Número de fotos: </p>
+              <p class="details">100</p>
+              <hr>
+              <p class="details">Consultoria de estilos inclusa</p>
+              <hr>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="comentarios">
+        <div class="depoimento">
+          <div class="imgDepoimento">
+            <img src="./img/perfil.jpg" alt="" class="image">
+          </div>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste voluptatum nulla, molestias non porro
+            doloremque magnam pariatur blanditiis sunt repellendus esse totam animi quisquam delectus suscipit
+            perspiciatis dolorum quae et.</p>
+        </div>
+      </div>
+      <footer>
+        <div class="footer">
+          <div class="logo-email">
+            <ul>
+              <li><a href="#"><img src="./img/logo.svg" alt=""></a></li>
+              <li>
+                <p>email@email.com</p>
+              </li>
+              <li>
+                <p>(99) 9-999-9999</p>
+              </li>
+            </ul>
+          </div>
+          <div class="menu-footer">
+            <ul>
+              <li><a href="#">Sobre mim</a></li>
+              <li><a href="#">Portfolio</a></li>
+              <li><a href="#">Preços</a></li>
+              <li><a href="#">Contatos</a></li>
+            </ul>
+          </div>
+          <div class="logo-footer">
+            <ul>
+              <li><a href="#"><img src="./img/behance.svg" alt=""></a></li>
+              <li><a href="#"><img src="./img/instagram.svg" alt=""></a></li>
+              <li><a href="#"><img src="./img/whatsapp.svg" alt=""></a></li>
+            </ul>
+          </div>
+          <div class="email">
+            <h4>Entre em contato</h4>
+            <input type="email" placeholder="email">
+            <button>Enviar</button>
+          </div>
+        </div>
+      </footer>
     </div>
-  </div>
+  </main>
 </body>
+
 </html>

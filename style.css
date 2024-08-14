@@ -1,292 +1,367 @@
-*{
+* {
     padding: 0px;
     margin: 0px;
 }
-body{
-    background: black;
+
+body {
+    background-color: black;
     color: white;
-    font-size: 16px;
-    overflow-x: hidden;
 }
-#container{
-    background: black;
-    width: 920px;
+
+.conatiner {
+    max-width: 1200px;
     margin: 0 auto;
-    position: relative;
+    align-items: center;
 }
-.menuprincipal{
-    color: white;
-    text-decoration: none;
+
+nav {
+    padding: 10px;
     border: 1px solid white;
-    margin: 5px;
-    padding: 10px 30px;
-    border-radius: 20px;
 }
-#menu{
-    position: relative;
-    width: 920px;
-    height: 68px;
-}
-#menu1, #menu2{
-    padding-left: 5px;
-    
-}
-#menu1{
-    position: relative;
-    left: 5px;
-    top: 30px;
-}
-#menu2{
-    position: relative;
-    left: 600px;
-    bottom: 55px;
-}
-#logomenu{
-    position: relative;
-    left: 400px;
-    width: 60px;
-    bottom: 15px;
-}
-#logoprincipal{
-    width: 60px;
-    height: 60px;
-}
-#fotoprincipal{
-    width: 300px;
-    height: 300px;
-    position: relative;
-    left: 410px;
-    bottom: 50px;
-}
-#fotogrande{
-    width: 300px;
-    height: 300px;
-}
-#linklatreal{
-    position: relative;
-    bottom: 400px;
-    left:750px;
-    
-}
-.logolateral{
-    width: 30px;
-    height: 30px;
-    display: block;
-    margin: 7px;
-}
-.linhavertical{
-    width: 1px;
-    height: 170px;
-    margin-bottom: 5px;
-    margin-left: 19px;
-    background: white;
-}
-#nome{
-    font-size:2em ;
-    position: relative;
-    top: 150px;
-    right: 7px;
 
+.nav-itens {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
-#frase{
-    font-size: 1.5em;
-    position: relative;
-    top: 142px;
-    left: 25px;
+
+.list-item {
+    border: 1px solid white;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    border-radius: 50px;
+    width: 215px;
+    height: 47px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
-#botão{
-    background: green;
-    border-radius: 20px;
-    width: 200px;
-    padding: 15px;
-    position: relative;
-    top: 150px;
-    left: 50px;
+
+.list-item:hover {
+    border: 1px solid #9ECB4A;
 }
-#botãocontato{
+
+.list-item a {
     text-decoration: none;
-    color: black;
-    margin: 50px 80px;
-}
-#experiencias{
-    font-size: 1.5em;
-}
-.experiencias1{
-    position: relative;
-    display: inline-block;
-    bottom: 430px;
-    margin: 5px;
+    color: white;
+    cursor: pointer;
 }
 
-/* Inicio seçao 2 */
-#seção2{
-    position: relative;
-}
-#fotosobre{
-    position: relative;
-    left: 85px;
-    bottom: 190px;
-}
-#fotomontanha{
-    height: 400px;
-    z-index: 0;
+.list-item img {}
+
+.none {
+    border: none;
 }
 
-#fotopequena{
-    height: 150px;
-    position: absolute;
-    right:610px;
-    bottom:330px;
-    z-index: 1;
-}
-#fotopequena, #fotomontanha{
-    border-radius: 20px;
-}
-hr{
-    width: 98px;
-}
-#esquerda{
-    position: relative;
-    top: 50px;
-    right:100px;
-    
-}
-#direita{
-    position: relative;
-    bottom:360px;
-    left:280px;
-    
-}
-#sobremim1{
-    position: relative;
-    bottom: 565px;
-    left: 525px;
-}
-#sobremim{
-    width: 430px;
-    position: relative;
-    left: 420px;
-    bottom: 545px;
+.none:hover {
+    border: none;
 }
 
-/* Inicio seçao 3 */
-#seção3{
-    position: relative;
-}
-h3{
-    position: relative;
-    bottom: 350px;
-    left: 100px;
-    font-size: 1.5em;
-}
-.linha3{
-    position: relative;
-    left: 230px;
-    bottom: 363px;
-    width: 600px;
-}
-.linhahorizontal{
-     position: relative;
-    bottom:360px;
-    left:290px;
-    width: 2px;
-  height: 250px;
-}
-.portfolio{
-    position: relative;
-    bottom: 270px;
-    left: 55px;
-    width: 200px;
-    height: 350px;
-    float: left;
-    margin: 7px;
-    border-radius: 20px;
+.hero {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin: 0 auto;
+    border: 1px solid white;
 }
 
-/* Inicio seçao 4 */
-#seção4{
-    position: relative;
-}
-.clear{
-    clear: both;
-}
-h4{
-    font-size: 1.5em;
-    position: relative;
-    bottom: 135px;
-    left: 95px;
-}
-.linha4{
-    position: relative;
-    left: 230px;
-    bottom: 150px;
-    width: 600px;
-}
-
-.preços{
-    position: relative;
-    bottom: 100px;
-    width: 270px;
-    height: 400px;
-    float: left;
-    margin: 15px;
-    border-radius: 20px;
-    padding: 3px;
-}
-
-/* Inicio seçao 5 */
-#seção5{
-    position: relative;
-}
-
-#elogios{
-    position: relative;
-    top: 500px;
-    left: 115px;
-    background: gray;
-    width: 650px;
-    height: 200px;
-    border: 1px solid green;
-    border-radius: 20px;
-    padding: 5px 9px;
-}
-
-#comentarios{
-    position: relative;
-    bottom: 315px;
-    padding: 15px;
+.hero h1 {
+    font-size: 5em;
     text-align: center;
 }
-#fotocomentario{
+
+.texto-principal {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+    flex: 1;
+}
+
+.texto-principal p {
+    font-size: 20px;
+    text-align: center;
+}
+
+.contato {
+    border: 1px solid white;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    border-radius: 50px;
+    border: none;
+    width: 350px;
+    height: 70px;
+    background-color: #9ECB4A;
+}
+
+.contato a {
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 45px;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+}
+
+.foto-principal img {
+    width: 30vw;
+}
+
+.foto-logo {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    flex: 1;
+}
+
+.logo-rede-social {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.vertical-line {
+    width: 2px;
+    height: 200px;
+    background-color: white;
+    margin: 0 20px;
+}
+
+.sobre {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    /* Centraliza horizontalmente */
+    align-items: center;
+}
+
+.sobre h2 {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.fotos-sobre {
+    margin: 0 auto;
+}
+
+.fotos-sobre img {
+    border-radius: 50px;
+}
+
+.sobremim1 {
+    height: 500px;
+}
+
+.text-sobre-mim {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.text-sobre-mim p {
+    font-size: 25px;
+}
+
+
+.portfolio {
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.portfolio h2 {
+    text-align: left;
+    font-size: 59px;
+}
+
+.horizon-line {
+    border: 0;
+    height: 2px;
+    background-color: #ccc;
+    margin: 20px 0;
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.cards {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    gap: 15px;
+}
+
+.card {
+    width: 300px;
+    height: 400px;
+}
+
+.card img {
+    width: 100%;
+    /* A imagem ocupa toda a largura do card */
+    height: 100%;
+    /* A imagem ocupa metade da altura do card */
+    object-fit: cover;
+    /* Faz com que a imagem cubra o espaço disponível */
+}
+
+.precos{
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.precos h2{
+    text-align: left;
+    font-size: 59px;
+}
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    gap: 15px;
+}
+
+.card {
+    width: 256px;
+    height: 350px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
     position: relative;
-    top: 80px;
-    left: 350px;
-    height: 75px;
-    z-index: 1;
-}
-#fotoperfil{
-    height: 75px;
-    border-radius: 350px;
+    overflow: hidden;
+    margin: 0 auto;
 }
 
-/*inicio rodape*/
+.card-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
 
-#footer{
+.card-price {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(70, 67, 67, 0.8); 
+    color: white;
+    text-align: center;
+    padding: 20px 0; 
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;  
+}
+
+.card-price p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+.card-price .price {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.card-price .details {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.details{
+    display: inline;
+}
+
+.comentarios{
+    margin: 0 auto;
+    align-items: center;
+    padding: 50px;
+}
+.depoimento{
+    background-color: gray;
+    border: 1px solid green;
+    border-radius: 50px;
+    height: 300px;
+    padding: 10px;
+}
+.depoimento p{
+    text-align: center;
+    padding-top: 10px;
+}
+.imgDepoimento {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+.imgDepoimento img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: -50px;
+}
+
+.footer{
+    margin: 0 auto;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo-email li{
+    list-style: none;
+    padding: 10px;
+}
+
+.menu-footer li,a{
+    list-style: none;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.logo-footer li{
+    list-style: none;
+}
+
+.logo-footer img{
+    height: 35px;
+    padding: 10px;
+}
+.email{
     position: relative;
 }
-
-#logorodape{
-    width: 65px;
-    position: relative;
-    top: 255px;
-    
-}
-#email{
-    position: relative;
-    top: 550px;
-}
-#email p{
-   margin: 15px;
+.email input,button{
+    border-radius: 10px;
+    border: none;
 }
 
+.email input{
+    width: 100%;
+    padding: 10px 50px 10px 10px; 
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    font-size: 16px;
+    box-sizing: border-box; 
+}
 
+.email button{
+    position: absolute;
+    right: 1px; 
+    top: 50%;
+    transform: translateY(-27%); 
+    background-color: #4CAF50; 
+    color: black;
+    font-weight: bolder;
+    border: none; 
+    padding: 10px 15px; 
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 16px;
+}
